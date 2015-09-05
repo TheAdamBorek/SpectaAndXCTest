@@ -14,6 +14,8 @@
 		66F6EE671B9ADAAA000A24B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F6EE661B9ADAAA000A24B6 /* Images.xcassets */; };
 		66F6EE6A1B9ADAAA000A24B6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66F6EE681B9ADAAA000A24B6 /* LaunchScreen.xib */; };
 		66F6EE761B9ADAAA000A24B6 /* SpectaAndXCTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F6EE751B9ADAAA000A24B6 /* SpectaAndXCTestTests.m */; };
+		66F6EE841B9ADC8C000A24B6 /* ABLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F6EE831B9ADC8C000A24B6 /* ABLinkedList.m */; };
+		66F6EE861B9ADCB1000A24B6 /* ABLinkedListXCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F6EE851B9ADCB1000A24B6 /* ABLinkedListXCTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		66F6EE6F1B9ADAAA000A24B6 /* SpectaAndXCTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpectaAndXCTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F6EE741B9ADAAA000A24B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66F6EE751B9ADAAA000A24B6 /* SpectaAndXCTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpectaAndXCTestTests.m; sourceTree = "<group>"; };
+		66F6EE821B9ADC8C000A24B6 /* ABLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABLinkedList.h; sourceTree = "<group>"; };
+		66F6EE831B9ADC8C000A24B6 /* ABLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABLinkedList.m; sourceTree = "<group>"; };
+		66F6EE851B9ADCB1000A24B6 /* ABLinkedListXCTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABLinkedListXCTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,9 @@
 				66F6EE661B9ADAAA000A24B6 /* Images.xcassets */,
 				66F6EE681B9ADAAA000A24B6 /* LaunchScreen.xib */,
 				66F6EE591B9ADAA9000A24B6 /* Supporting Files */,
+				66F6EE821B9ADC8C000A24B6 /* ABLinkedList.h */,
+				66F6EE831B9ADC8C000A24B6 /* ABLinkedList.m */,
+				66F6EE851B9ADCB1000A24B6 /* ABLinkedListXCTests.m */,
 			);
 			path = SpectaAndXCTest;
 			sourceTree = "<group>";
@@ -222,6 +230,7 @@
 				66F6EE621B9ADAA9000A24B6 /* ViewController.m in Sources */,
 				66F6EE5F1B9ADAA9000A24B6 /* AppDelegate.m in Sources */,
 				66F6EE5C1B9ADAA9000A24B6 /* main.m in Sources */,
+				66F6EE841B9ADC8C000A24B6 /* ABLinkedList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66F6EE861B9ADCB1000A24B6 /* ABLinkedListXCTests.m in Sources */,
 				66F6EE761B9ADAAA000A24B6 /* SpectaAndXCTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
