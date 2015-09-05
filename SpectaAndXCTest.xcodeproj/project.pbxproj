@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3271296BD0EFC09F6008F4F4 /* libPods-SpectaAndXCTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F03C10F743B83834E295F4EA /* libPods-SpectaAndXCTestTests.a */; };
 		66F6EE5C1B9ADAA9000A24B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F6EE5B1B9ADAA9000A24B6 /* main.m */; };
 		66F6EE5F1B9ADAA9000A24B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F6EE5E1B9ADAA9000A24B6 /* AppDelegate.m */; };
 		66F6EE621B9ADAA9000A24B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F6EE611B9ADAA9000A24B6 /* ViewController.m */; };
 		66F6EE651B9ADAAA000A24B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F6EE631B9ADAAA000A24B6 /* Main.storyboard */; };
 		66F6EE671B9ADAAA000A24B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F6EE661B9ADAAA000A24B6 /* Images.xcassets */; };
 		66F6EE6A1B9ADAAA000A24B6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66F6EE681B9ADAAA000A24B6 /* LaunchScreen.xib */; };
-		66F6EE761B9ADAAA000A24B6 /* SpectaAndXCTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F6EE751B9ADAAA000A24B6 /* SpectaAndXCTestTests.m */; };
 		66F6EE841B9ADC8C000A24B6 /* ABLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F6EE831B9ADC8C000A24B6 /* ABLinkedList.m */; };
 		66F6EE861B9ADCB1000A24B6 /* ABLinkedListXCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F6EE851B9ADCB1000A24B6 /* ABLinkedListXCTests.m */; };
+		66F6EE891B9AE54E000A24B6 /* ABLinkedListSpectaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F6EE871B9AE502000A24B6 /* ABLinkedListSpectaTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		238DF140BB0D7A78E679AB05 /* Pods-SpectaAndXCTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpectaAndXCTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpectaAndXCTestTests/Pods-SpectaAndXCTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		66F6EE561B9ADAA9000A24B6 /* SpectaAndXCTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpectaAndXCTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F6EE5A1B9ADAA9000A24B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66F6EE5B1B9ADAA9000A24B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -41,10 +43,12 @@
 		66F6EE691B9ADAAA000A24B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		66F6EE6F1B9ADAAA000A24B6 /* SpectaAndXCTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpectaAndXCTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F6EE741B9ADAAA000A24B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66F6EE751B9ADAAA000A24B6 /* SpectaAndXCTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpectaAndXCTestTests.m; sourceTree = "<group>"; };
 		66F6EE821B9ADC8C000A24B6 /* ABLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABLinkedList.h; sourceTree = "<group>"; };
 		66F6EE831B9ADC8C000A24B6 /* ABLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABLinkedList.m; sourceTree = "<group>"; };
 		66F6EE851B9ADCB1000A24B6 /* ABLinkedListXCTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABLinkedListXCTests.m; sourceTree = "<group>"; };
+		66F6EE871B9AE502000A24B6 /* ABLinkedListSpectaTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABLinkedListSpectaTests.m; sourceTree = "<group>"; };
+		7741B9F050536CBAD89329F0 /* Pods-SpectaAndXCTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpectaAndXCTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpectaAndXCTestTests/Pods-SpectaAndXCTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		F03C10F743B83834E295F4EA /* libPods-SpectaAndXCTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpectaAndXCTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3271296BD0EFC09F6008F4F4 /* libPods-SpectaAndXCTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +76,8 @@
 				66F6EE581B9ADAA9000A24B6 /* SpectaAndXCTest */,
 				66F6EE721B9ADAAA000A24B6 /* SpectaAndXCTestTests */,
 				66F6EE571B9ADAA9000A24B6 /* Products */,
+				725669A54F1925EA2C6A6631 /* Pods */,
+				C60B5AE22C31C74C235B5F7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +104,7 @@
 				66F6EE821B9ADC8C000A24B6 /* ABLinkedList.h */,
 				66F6EE831B9ADC8C000A24B6 /* ABLinkedList.m */,
 				66F6EE851B9ADCB1000A24B6 /* ABLinkedListXCTests.m */,
+				66F6EE871B9AE502000A24B6 /* ABLinkedListSpectaTests.m */,
 			);
 			path = SpectaAndXCTest;
 			sourceTree = "<group>";
@@ -113,7 +121,6 @@
 		66F6EE721B9ADAAA000A24B6 /* SpectaAndXCTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				66F6EE751B9ADAAA000A24B6 /* SpectaAndXCTestTests.m */,
 				66F6EE731B9ADAAA000A24B6 /* Supporting Files */,
 			);
 			path = SpectaAndXCTestTests;
@@ -125,6 +132,23 @@
 				66F6EE741B9ADAAA000A24B6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		725669A54F1925EA2C6A6631 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				238DF140BB0D7A78E679AB05 /* Pods-SpectaAndXCTestTests.debug.xcconfig */,
+				7741B9F050536CBAD89329F0 /* Pods-SpectaAndXCTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C60B5AE22C31C74C235B5F7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F03C10F743B83834E295F4EA /* libPods-SpectaAndXCTestTests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66F6EE7C1B9ADAAA000A24B6 /* Build configuration list for PBXNativeTarget "SpectaAndXCTestTests" */;
 			buildPhases = (
+				A632BCF569FFF8409E72A502 /* Check Pods Manifest.lock */,
 				66F6EE6B1B9ADAAA000A24B6 /* Sources */,
 				66F6EE6C1B9ADAAA000A24B6 /* Frameworks */,
 				66F6EE6D1B9ADAAA000A24B6 /* Resources */,
+				22B9A3AD06ADA252B29F88CA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,6 +248,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22B9A3AD06ADA252B29F88CA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpectaAndXCTestTests/Pods-SpectaAndXCTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A632BCF569FFF8409E72A502 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		66F6EE521B9ADAA9000A24B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -238,8 +297,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66F6EE891B9AE54E000A24B6 /* ABLinkedListSpectaTests.m in Sources */,
 				66F6EE861B9ADCB1000A24B6 /* ABLinkedListXCTests.m in Sources */,
-				66F6EE761B9ADAAA000A24B6 /* SpectaAndXCTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +436,7 @@
 		};
 		66F6EE7D1B9ADAAA000A24B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238DF140BB0D7A78E679AB05 /* Pods-SpectaAndXCTestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -396,6 +456,7 @@
 		};
 		66F6EE7E1B9ADAAA000A24B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7741B9F050536CBAD89329F0 /* Pods-SpectaAndXCTestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -428,6 +489,7 @@
 				66F6EE7B1B9ADAAA000A24B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66F6EE7C1B9ADAAA000A24B6 /* Build configuration list for PBXNativeTarget "SpectaAndXCTestTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +498,7 @@
 				66F6EE7E1B9ADAAA000A24B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
