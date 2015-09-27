@@ -11,14 +11,14 @@
 #import "ABLinkedList.h"
 
 @interface ABLinkedListXCTests : XCTestCase
-@property (nonatomic, strong) ABLinkedList *subjectUnderTest;
+@property (nonatomic, strong) ABLinkedList *systemUnderTests;
 @end
 
 @implementation ABLinkedListXCTests
 
 - (void)setUp {
     [super setUp];
-    self.subjectUnderTest = [[ABLinkedList alloc] init];
+    self.systemUnderTests = [[ABLinkedList alloc] init];
 }
 
 - (void)tearDown {
@@ -27,17 +27,17 @@
 }
 
 - (void)testAddingElementToEmptyList{
-    [self.subjectUnderTest addObject:@1];
-    XCTAssertEqualObjects([self.subjectUnderTest objectAtIndex:0], @1);
+    [self.systemUnderTests addObject:@1];
+    XCTAssertEqualObjects([self.systemUnderTests objectAtIndex:0], @1);
 }
 
 - (void)testAddingToNonEmptyList{
-    [self.subjectUnderTest addObject:@0];
-    [self.subjectUnderTest addObject:@1];
-    [self.subjectUnderTest addObject:@2];
-    XCTAssertEqualObjects([self.subjectUnderTest objectAtIndex:0], @0);
-    XCTAssertEqualObjects([self.subjectUnderTest objectAtIndex:1], @1);
-    XCTAssertEqualObjects([self.subjectUnderTest objectAtIndex:2], @2);
+    [self.systemUnderTests addObject:@0];
+    [self.systemUnderTests addObject:@1];
+    [self.systemUnderTests addObject:@2];
+    XCTAssertEqualObjects([self.systemUnderTests objectAtIndex:0], @0);
+    XCTAssertEqualObjects([self.systemUnderTests objectAtIndex:1], @1);
+    XCTAssertEqualObjects([self.systemUnderTests objectAtIndex:2], @2);
 }
 
 @end

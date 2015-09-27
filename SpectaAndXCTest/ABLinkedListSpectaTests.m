@@ -14,34 +14,34 @@
 SpecBegin(ABLinkedListTestsSpec)
 
 describe(@"ABLinkedList", ^{
-    __block ABLinkedList *subjectUnderTests;
+    __block ABLinkedList *systemUnderTests;
 
     beforeEach(^{
-        subjectUnderTests = [[ABLinkedList alloc] init];
+        systemUnderTests = [[ABLinkedList alloc] init];
     });
 
     afterEach(^{
-        subjectUnderTests = nil;
+        systemUnderTests = nil;
     });
 
     describe(@"adding and reciving object form list",^{
         describe(@"addObject:", ^{
             context(@"list is empty",^{
                 it(@"should add object at index 0",^{
-                    [subjectUnderTests addObject:@0];
-                    expect([subjectUnderTests objectAtIndex:0]).to.equal(@0);
+                    [systemUnderTests addObject:@0];
+                    expect([systemUnderTests objectAtIndex:0]).to.equal(@0);
                 });
             });
 
             context(@"when list is not empty",^{
                 before(^{
-                    [subjectUnderTests addObject:@0];
-                    [subjectUnderTests addObject:@1];
+                    [systemUnderTests addObject:@0];
+                    [systemUnderTests addObject:@1];
                 });
 
                 it(@"should add object at index 2", ^{
-                    [subjectUnderTests addObject:@2];
-                    expect([subjectUnderTests objectAtIndex:2]).to.equal(@2);
+                    [systemUnderTests addObject:@2];
+                    expect([systemUnderTests objectAtIndex:2]).to.equal(@2);
                 });
             });
         });
